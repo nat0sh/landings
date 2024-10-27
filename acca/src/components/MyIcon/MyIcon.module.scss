@@ -1,0 +1,14 @@
+.myIcon {
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        color: #fff;
+        transform: scale(1.2);
+    }
+}
+
+.logoIcon {
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        color: red;
+    }
+}

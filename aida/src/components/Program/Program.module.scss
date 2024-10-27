@@ -1,0 +1,152 @@
+.program {
+    
+    .programBlocks {
+        display: flex;
+
+        .bigBlock {
+            background-color: rgba(59, 70, 224, 0.88);
+            width: 716px;
+            height: 614px;
+            border-radius: 30px;
+            padding: 45.5px 98px;
+            box-sizing: border-box;
+            position: relative;
+            margin-right: 32px;
+
+            h2 {
+                font-family: 'IBM Plex Sans', sans-serif;
+                font-size: 48px;
+                font-weight: 700;
+                color: #fff;
+                margin: 0;
+                width: 474px;
+            }
+
+            img {
+                position: absolute;
+                bottom: 45.5px;
+                left: 164px;
+            }
+        }
+        
+        .smallBlocks {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .smallBlock {
+                width: 489px;
+                height: 300px;
+                border-radius: 30px;
+
+                .blockTitle {
+                    display: flex;
+                    align-items: center;
+                    h1 {
+                        font-family: 'IBM Plex Sans', sans-serif;
+                        font-size: 96px;
+                        font-weight: 700;
+                        margin: 0;
+                        color: #3B46E0;
+                    }
+                    p {
+                        font-size: 36px;
+                        font-weight: 400;
+                        margin: 0;
+                        margin-left: 32px;
+                    }
+                }
+            }
+
+            #block1 {
+                background-color: #fff;
+                box-shadow: 0px 4px 4px 0px #0000000D;
+                margin-bottom: 16px;
+                position: relative;
+                .blockTitle {
+                    margin-top: 59px;
+                    margin-left: 39px;
+                    p {
+                        width: 190px;
+                    }
+                }
+                img {
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                }
+            }
+            #block2 {
+                background-color: rgba(255, 255, 0, 0.28);
+                box-shadow: 0px 4px 4px 0px #0000000D;
+                margin-bottom: 16px;
+                .blockTitle {
+                    margin-top: 61px;
+                    margin-left: 39px;
+                    p {
+                        width: 357px;
+                    }
+                }
+            }
+            #block3 {
+                background-color:rgba(132, 156, 249, 0.2);
+                box-shadow: 0px 4px 4px 0px #0000000D;
+                .blockTitle {
+                    margin-top: 81px;
+                    margin-left: 28px;
+                    p {
+                        width: 336px;
+                    }
+                }
+            }
+            #block4 {
+                background-color: #F0502D;
+                box-shadow: 0px 4px 4px 0px #0000000D;
+                position: relative;
+                .blockTitle {
+                    margin-top: 11.5px;
+                    margin-left: 13px;
+                    p {
+                        width: 180px;
+                    }
+                }
+                img {
+                    position: absolute;
+                    bottom: 11.5px;
+                    right: 13px;
+                }
+            }
+        }
+    }
+
+    .buttonBlock {
+        display: flex;
+        justify-content: center;
+
+        .mainButton {
+            background-color: #3B46E0;
+            border-radius: 30px;
+            width: 400px;
+            height: 90px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 81px;
+            box-shadow: 0px 4px 4px 0px #00000040;
+            cursor: pointer;
+            transition: all 0.5s ease;
+            border: none;
+            color: #fff; 
+            font-weight: 700;
+            font-size: 24px;
+            text-decoration: none; 
+        
+            &:hover {
+                background-color: #fff;
+                border: 1px solid #3B46E0;
+                box-sizing: border-box;
+                color: #000; 
+            }
+        }            
+    }
+}

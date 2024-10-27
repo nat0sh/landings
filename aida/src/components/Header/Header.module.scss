@@ -1,0 +1,56 @@
+header {
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+
+    .logo {
+        width: 190px;
+        height: 58px;
+    }
+
+    nav {
+        display: flex;
+
+        .navList {
+            width: 1070px;
+            display: flex;
+            list-style: none;
+            justify-content: space-around;
+            padding: 0;
+            margin: 0;
+
+            .navItem {
+                font-weight: 700;
+                font-size: 24px;
+            }
+        }
+    }
+
+    .mainButton {
+        background-color: #3B46E0;
+        border-radius: 30px;
+        width: 320px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 4px 4px 0px #00000040;
+        cursor: pointer;
+        transition: all 0.5s ease;
+        border: none;
+        color: #fff; 
+        font-weight: 700;
+        font-size: 24px;
+        text-decoration: none; 
+    
+        &:hover {
+            background-color: #fff;
+            border: 1px solid #3B46E0;
+            box-sizing: border-box;
+            color: #000; 
+        }
+    }            
+}
+
